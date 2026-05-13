@@ -29,8 +29,7 @@
 
         <article>
             <p>
-        
-                Adicionado mais um texto - Eu sou o Breno, trabalho com COMEX, e estou me tornando um dev.
+                Eu sou o Breno, trabalho com COMEX, e estou me tornando um dev.
             </p>
 
         </article>
@@ -72,10 +71,33 @@
 
             <p>Tem um projeto em mente? Entre em contato!</p>
 
-            <address>
-                E-mail: <a href="mailto:brenoreb10@gmail.com">brenoreb10@gmail.com</a> <br>
-                Telefone: <a href="tel:+55 47 996168392">+55 47 996168392</a>
-            </address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto" name="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select> <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea> <br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber minha letter? Fique por dentro!</label> <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
 
         </section>
 
